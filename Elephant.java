@@ -16,9 +16,9 @@ public class Elephant {
 		Arrays.sort(a);
 		for(i=0;i<a.length;i++){
 		
-			if(sum<w){
+			if(sum<=w){
 				sum = sum+a[i];
-				if(sum<w){
+				if(sum<=w){
 					++count;
 				}
 		}

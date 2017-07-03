@@ -51,7 +51,7 @@ public class Matrix {
 		for(int j=0;j<c;j++){
 			for(int i=0;i<r;i++){
 				for(int k=i+1;k<r;k++){
-					if(b[i][j]<b[k][j]){
+					if(b[i][j]>b[k][j]){
 						int temp;
 						temp = b[i][j];
 						b[i][j] = b[k][j];
